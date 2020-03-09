@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.credit-card {
+  margin: 20px;
+  width: 550px;
+  height: 350px;
+  background-color: #042848;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.credit-card-title {
+  text-align: right;
+}
+.credit-card-content {
+  display: flex;
+
+}
+.credit-card-text {
+  margin-top: 20px;
+  width: 400px;
+  height: 180px;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.credit-card-chip {
+  margin-left: 20px;
+  width: 50px;
+  height: 40px;
+  background-color: #baaf7d;
+  border-radius: 10px;
+  
+}
+.credit-card-number {
+  color: #baaf7d;
+
+}
+.credit-card-valid-thru {
+  text-align: right;
+}
+.credit-card-holder-name {
+  padding: 0;
+  font-size: 1.2em;
+ text-justify: left;
+  
+}
+.credit-card-logo {
+  width: 100px;
+  height: 180px;
+  display: flex;
+justify-content: center;
+  padding-bottom: 10px;
+
+}
+
+.credit-card-logo img {
+  margin-left: 50px;
+  margin-top: 70px;
+ width: 70px;
+ height: 100px;
+}
+
+.inputt{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+  margin: 20px 20px;
+  
+   
+}
+.maindiv{
+  display: flex;
+}
